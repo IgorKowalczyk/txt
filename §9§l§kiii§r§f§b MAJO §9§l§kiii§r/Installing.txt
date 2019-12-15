@@ -1,0 +1,7 @@
+- MAJO TEXTURE PACK -
+
+- Installation instructions (Windows) -
+- 1 - Go to the Windows Start menu and type: %AppData% and open the folder called AppData.
+- 2 - Inside AppData, go to Roaming>.minecraft>Resourcepacks.
+- 3 - Drag this folder onto that folder(the entire file, as you downloaded it)
+- 4 - You should now be able to use it in Minecraft!
