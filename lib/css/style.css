@@ -100,7 +100,7 @@ color: #000 !important;
 }
 
 a:hover {
-color: #00a3a3;
+color: #00a3a3 !important;
 }
 
 a:before {
