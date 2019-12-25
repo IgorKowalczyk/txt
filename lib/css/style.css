@@ -22,6 +22,29 @@
 --spinner-border: #333
 }
 
+.no-js {
+background: #f44336;
+font-family: 'Roboto-Thin';
+color: #fff;
+text-align: center;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-ms-flex-align: center;
+-webkit-box-align: center;
+align-items: center;
+justify-content: center;
+position: fixed;
+user-select: none;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 999999;
+}
+
 * {
 transition: 500ms background, 500ms background-color, 500ms color;
 }
