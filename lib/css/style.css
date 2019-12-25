@@ -1,7 +1,33 @@
 /* (c) IGOR KOWALCZYK. All rights reserved. */
 
+:root {
+--color-888: #888;
+--switch-slider: #fff;
+--background: #fff;
+--text: #000;
+--aqua: #00a3a3;
+--preloader: #fff;
+--spinner: #00a3a3;
+--spinner-border: #f3f3f3;
+}
+
+[data-theme="dark"] {
+--color-888: #888;
+--switch-slider: #888;
+--background: #222;
+--text: #fff;
+--aqua: #fff;
+--preloader: #222;
+--spinner: #888;
+--spinner-border: #333
+}
+
+* {
+transition: 500ms background, 500ms background-color, 500ms color;
+}
+
 body {
-background-color: #fff;
+background-color: var(--background);
 font-family: 'Roboto-Thin';
 word-break: break-word;
 overflow-x: hidden;
@@ -28,11 +54,11 @@ opacity: 1;
 .preloader {
 height: 100%;
 width: 100%;
-background: #fff;
+background: var(--preloader);
 position: fixed;
 left: 0;
 top: 0;
-z-index: 99999;
+z-index: 10000;
 perspective: 1600px;
 perspective-origin: 20% 50%;
 transition: 0.5s all;
@@ -42,8 +68,8 @@ opacity: 1;
 .spinner {
 width: 80px;
 height: 80px;
-border: 2px solid #f3f3f3;
-border-top: 3px solid #00a3a3;
+border: 2px solid var(--spinner-border);
+border-top: 3px solid var(--spinner);
 border-radius: 100%;
 position: absolute;
 top: 0;
@@ -82,7 +108,7 @@ src: url(https://igorkowalczyk.github.io/lib/fonts/roboto/Roboto-Thin.otf);
 }
 
 .logo {
-color: #000;
+color: var(--text);
 font-size: 30px;
 text-align: center;
 }
@@ -96,11 +122,11 @@ transition: 500ms;
 
 a {
 position: relative;
-color: #000 !important;
+color: var(--text) !important;
 }
 
 a:hover {
-color: #00a3a3 !important;
+color: var(--aqua) !important;
 }
 
 a:before {
@@ -110,7 +136,7 @@ width: 100%;
 height: 2px;
 bottom: 0;
 left: 0;
-background-color: #00a3a3;
+background-color: var(--aqua);
 visibility: hidden;
 -webkit-transform: scaleX(0);
 transform: scaleX(0);
@@ -149,4 +175,87 @@ text-shadow: none;
 background: #333;
 color: #fff;
 text-shadow: none;
+}
+
+li, ul {
+list-style: none;
+}
+
+footer {
+text-align: center;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+color: var(--text);
+font-size: 12px;
+margin: 2em;
+user-select: none;
+}
+
+
+.theme-switch, .switch {
+display: inline-block;
+height: 34px;
+position: relative;
+width: 60px;
+}
+
+.theme-switch input, .switch input {
+display: none;
+}
+
+.theme-switch-container, .switch-container {
+position: sticky;
+top: 0;
+}
+
+.slider, .slider-switch {
+background-color: rgba(31, 31, 31, 0.8);
+bottom: 0;
+cursor: pointer;
+left: 0;
+position: absolute;
+right: 0;
+top: 0;
+transition: .4s;
+}
+
+.slider-switch:before {
+background-color: var(--switch-slider);
+bottom: 4px;
+content: "";
+height: 26px;
+left: 4px;
+position: absolute;
+transition: .4s;
+width: 26px;
+}
+
+.slider:before {
+background-color: var(--color-888);
+bottom: 4px;
+content: "";
+height: 26px;
+left: 4px;
+position: absolute;
+transition: .4s;
+width: 26px;
+}
+
+input:checked + .slider, input:checked + .slider-switch {
+background-color: #888;
+}
+
+input:checked + .slider:before, input:checked + .slider-switch:before {
+transform: translateX(26px);
+background-color: #fff;
+}
+
+.slider.round, .slider-switch.round {
+border-radius: 34px;
+}
+
+.slider.round:before, .slider-switch.round:before {
+border-radius: 50%;
 }
