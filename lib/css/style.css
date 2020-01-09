@@ -46,7 +46,7 @@ z-index: 999999;
 }
 
 * {
-transition: 500ms background, 500ms background-color, 500ms color;
+transition: 500ms background, 500ms background-color, 500ms color, 500ms opacity;
 }
 
 body {
