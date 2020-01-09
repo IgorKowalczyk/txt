@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://igorkowalczyk.github.io/txt/lib/css/style.css">
 </head>
 <body ondragstart="return false" ondrag="return false">
-<script tyle="text/javascript">var preload = document.createElement('div'); preload.className = "preloader"; preload.innerHTML = '</div><div class="spinner"></div>'; document.body.appendChild(preload); window.addEventListener('load', function() { preload.className +=  ' fade'; setTimeout(function(){ preload.style.display = 'none'; },500); })</script>
+<script tyle="text/javascript">var preload = document.createElement('div'); preload.className = "preloader"; preload.innerHTML = '</div><div class="spinner"></div>'; document.body.appendChild(preload); window.addEventListener('load', function() { preload.className +=  ' fade'; setTimeout(function(){ preload.style.display = 'none'; },500); }) const toggletheme=document.querySelector('.theme-switch input[type="checkbox"]'),currenttheme=localStorage.getItem("theme");function switchtheme(e){e.target.checked?(document.documentElement.setAttribute("data-theme","dark"),localStorage.setItem("theme","dark")):(document.documentElement.setAttribute("data-theme","light"),localStorage.setItem("theme","light"))}currenttheme&&(document.documentElement.setAttribute("data-theme",currenttheme),"dark"===currenttheme&&(toggletheme.checked=!0)),toggletheme.addEventListener("change",switchtheme,!1);</script>
 <noscript><div class="no-js">To view the page please enable javascript in your browser.</div></noscript>
 <p class="logo">Majo Texture Pack</p><br>
 <hr>
