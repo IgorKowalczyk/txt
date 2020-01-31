@@ -156,7 +156,7 @@ transition: inherit, background-size 300ms;
 
 a:hover {
 background-size: 100% 2px;
-color: var(--00a3a3 !important;
+color: var(--00a3a3) !important;
 }
 
 hr {
