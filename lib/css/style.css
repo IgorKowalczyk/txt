@@ -5,7 +5,7 @@
 --switch-slider: #fff;
 --background: #fff;
 --text: #000;
---aqua: #00a3a3;
+--00a3a3: #00a3a3;
 --preloader: #fff;
 --spinner: #00a3a3;
 --spinner-border: #f3f3f3;
@@ -16,7 +16,7 @@
 --switch-slider: #888;
 --background: #222;
 --text: #fff;
---aqua: #fff;
+--00a3a3: #fff;
 --preloader: #222;
 --spinner: #888;
 --spinner-border: #333
@@ -54,8 +54,8 @@ background-color: var(--background);
 font-family: 'Roboto-Thin';
 word-break: break-word;
 overflow-x: hidden;
--webkit-animation: fadeIn 1s ease-in;
-animation: fadeIn 1s ease-in;
+-webkit-animation: fade 1s ease-in;
+animation: fade 1s ease-in;
 -webkit-font-smoothing: antialiased;
 -webkit-backface-visibility: hidden;
 -moz-backface-visibility: hidden;
@@ -65,7 +65,7 @@ box-sizing: border-box;
 margin: 0;
 }
 
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes fade {
 0% {
 opacity: 0;
 }
@@ -144,9 +144,6 @@ transition: 500ms;
 }
 
 a {
-}
-
-a {
 position: relative;
 color: var(--text) !important;
 text-decoration: none;
@@ -159,7 +156,7 @@ transition: inherit, background-size 300ms;
 
 a:hover {
 background-size: 100% 2px;
-color: var(--aqua) !important;
+color: var(--00a3a3 !important;
 }
 
 hr {
