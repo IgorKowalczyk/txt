@@ -12,3 +12,7 @@
  - You should now be able to use it in Minecraft!
  
 > Note: The texture pack works good in Minecraft 1.8
+
+### Issues
+
+If you have any issues with this texturepack please open [new issue here](https://github.com/igorkowalczyk/txt/issues)
