@@ -59,6 +59,7 @@ word-break: break-word;
 overflow-x: hidden;
 -webkit-animation: fade 500ms ease-in;
 animation: fade 500ms ease-in;
+transition: 500ms all;
 -webkit-font-smoothing: antialiased;
 -webkit-backface-visibility: hidden;
 -moz-backface-visibility: hidden;
