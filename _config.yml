@@ -15,6 +15,7 @@ description: "MAJO Texture pack. For Minecraft 1.8"
 
 # Base url (Not link! Only dir, without slash at end)
 baseurl: "/txt"
+url: "https://igorkowalczyk.github.io"
 
 # Github username (no link) - if you don't have - leave blank
 github_username:  "igorkowalczyk"
