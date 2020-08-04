@@ -34,6 +34,9 @@ timezone: "Europe/Warsaw"
 markdown: kramdown
 theme: minima
 
+# Support to mobile browsers (It’s unknown what range of browsers support this meta tags) [Better to set the value to "false"!]
+mobile: "false"
+
 # Encoding (default: utf-8)
 encoding: utf-8
 
