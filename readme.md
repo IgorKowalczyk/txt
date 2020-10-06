@@ -3,7 +3,7 @@ A texture pack for Minecraft 1.8+
 
 [![Jekyll](https://github.com/igorkowalczyk/txt/workflows/Jekyll/badge.svg)](https://igorkowalczyk.github.io/txt)
 [![GitHub License](https://img.shields.io/github/license/igorkowalczyk/txt?color=%2334D058&logo=github&logoColor=959DA5&labelColor=24292E)](https://igorkowalczyk.github.io/txt)
-[![Discord](https://img.shields.io/discord/666599184844980224?color=%2334D058&logo=discord&logoColor=7289da&labelColor=24292E)](https://discord.gg/f4KtqNB)
+[![Discord](https://img.shields.io/discord/666599184844980224?color=%2334D058&logo=discord&logoColor=7289da&labelColor=24292E)](https://igorkowalczyk.github.io/majobot/server)
 
 ### Instructions to use this texture pack.
 
