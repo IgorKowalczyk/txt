@@ -1,4 +1,4 @@
-> ### This repository is outdated. Do not use it on production!
+> ### This repository is outdated!
 # Majo Texture Pack
 A texture pack for Minecraft 1.8+
 
